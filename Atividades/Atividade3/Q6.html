@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formalario de contato - Canal TI</h1>
+    <form action="">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="email">Email:*</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="tamanho">Assunto:</label><br>
+        <select name="tamanho" id="tamanho">
+            <option disabled selected>Reportar erro</option>
+            <option value="1">Assunto 1</option>
+            <option value="2">Assunto 2</option>
+            <option value="3">Assunto 3</option>
+        </select><br><br>
+        <label for="mensagem">Mensagem:*</label><br>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

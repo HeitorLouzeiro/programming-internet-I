@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <table>
+            <tr>
+                <th>
+                    <h1>Escola Virtual</h1>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <h1>Formulario de Pré-Matricula</h1>
+                </td>
+            </tr>
+        </table>
+        <form action="">
+            <table border="2">
+
+                <tr>
+                    <th>Dados pessoais</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome">
+                        <br>
+                        <br>
+
+                        <label for="idade">Nascimento (dd/mm/aaaa):</label>
+                        <input type="number" name="dia" id="dia">/
+                        <input type="number" name="mes" id="mes">/
+                        <input type="number" name="ano" id="ano">
+                        <br>
+                        <br>
+
+                        <label for="nomeMae">Nome da Mãe:</label>
+                        <input type="text" name="nomeMae" id="nomeMae">
+                        <br>
+                        <br>
+
+                        <label for="nomePai">Nome do Pai:</label>
+                        <input type="text" name="nomePai" id="nomePai">
+                        <br>
+                        <br>
+
+                        <label>Telefone: DDD(
+                            <input type="number" name="dd" id="dd">
+                            )
+                            <label for="telefone">
+                                Tel: <input type="number" name="telefone" id="telefone">
+                            </label>
+                            <label for="ramal">
+                                Ramal: <input type="number" name="ramal" id="ramal">
+                            </label>
+                        </label>
+
+                        <br>
+                        <br>
+                        <label for="email">
+                            Email
+                        </label>
+                        <input type="email" name="email" id="email">
+                        <br>
+                        <br>
+                    </td>
+                </tr>
+            </table>
+
+            <table border="2">
+                <tr>
+                    <th>Informações de Matricula</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="serie">Serie</label><br><br>
+                        <select name="serie" id="serie">
+                            <option value="1">1º Ano</option>
+                            <option value="2">2º Ano</option>
+                            <option value="3">3º Ano</option>
+                            <option value="4">4º Ano</option>
+                            <option value="5">5º Ano</option>
+                            <option value="6">6º Ano</option>
+                            <option value="7">7º Ano</option>
+                            <option value="8">8º Ano</option>
+                            <option value="9">9º Ano</option>
+                        </select>
+
+                    </td>
+                    <td>
+                        <label for="turno">Turno</label><br><br>
+                        <label>
+                            <input type="radio" name="turno" id="tarde" value="1">
+                            <label for="manha">Manhã</label><br>
+
+                            <input type="radio" name="turno" id="noite" value="2">
+                            <label for="tarde">Tarde</label>
+                        </label>
+                    </td>
+                    <td>
+                        <label for="Atividade"> Atividades Extracurriculares</label>
+                        <br><br>
+                        <label>
+                            <input type="checkbox" id="info" name="info">
+                            <label for="info">Informatica</label><br>
+
+                            <input type="checkbox" id="musica" name="musica">
+                            <label for="musica">Musica</label><br>
+
+                            <input type="checkbox" id="balet" name="balet">
+                            <label for="balet">Balet</label><br>
+
+                            <input type="checkbox" id="pintura" name="pintura">
+                            <label for="pintura">Pintura</label><br>
+
+                            <input type="checkbox" id="judo" name="judo">
+                            <label for="judo">Judo</label><br>
+                        </label>
+
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <button type="submit">Enviar Formulario</button>
+            <button type="submit">Limpar Campos</button>
+        </form>
+    </table>
+</body>
+
+</html>

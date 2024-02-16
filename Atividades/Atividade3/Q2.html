@@ -1,0 +1,48 @@
+<!-- Um restaurante de pizzas permite que os clientes personalizem sua pizza.
+    Eles precisam de um formulário onde os clientes possam 
+    selecionar o tamanho da pizza (pequeno, médio, grande), 
+    escolher os ingredientes (molho, queijo, etc) 
+    e fornecer informações de entrega (nome, endereço, número de telefone). -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="tamanho">Tamanho:</label>
+        <select name="tamanho" id="tamanho">
+            <option value="pequeno">Pequeno</option>
+            <option value="medio">Médio</option>
+            <option value="grande">Grande</option>
+        </select><br><br>
+
+        <label for="ingredientes">Ingredientes:</label><br>
+        <input type="checkbox" id="molho" name="molho">
+        <label for="molho">Molho</label><br>
+        <input type="checkbox" id="queijo" name="queijo">
+        <label for="queijo">Queijo</label><br>
+        <input type="checkbox" id="tomate" name="tomate">
+        <label for="tomate">Tomate</label><br>
+        <input type="checkbox" id="cebola" name="cebola">
+        <label for="cebola">Cebola</label><br>
+        <input type="checkbox" id="azeitona" name="azeitona">
+        <label for="azeitona">Azeitona</label><br><br>
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco"><br><br>
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone"><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!-- Uma empresa deseja coletar feedback dos clientes sobre sua experiência de compra.
+    Eles precisam de um formulário simples com perguntas como "Qual foi a sua experiência geral?", 
+    "Você recomendaria nossa empresa a um amigo?", 
+    e um espaço para comentários adicionais. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="experiencia">Qual foi a sua experiência geral?</label><br>
+        <input type="radio" id="ruim" name="experiencia" value="ruim">
+        <label for="ruim">Ruim</label><br>
+        <input type="radio" id="regular" name="experiencia" value="regular">
+        <label for="regular">Regular</label><br>
+        <input type="radio" id="bom" name="experiencia" value="bom">
+        <label for="bom">Bom</label><br>
+        <input type="radio" id="otimo" name="experiencia" value="otimo">
+        <label for="otimo">Ótimo</label><br><br>
+
+        <label for="recomendacao">Você recomendaria nossa empresa a um amigo?</label><br>
+        <input type="radio" id="sim" name="recomendacao" value="sim">
+        <label for="sim">Sim</label><br>
+        <input type="radio" id="nao" name="recomendacao" value="nao">
+        <label for="nao">Não</label><br><br>
+
+        <label for="comentarios">Comentários adicionais:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

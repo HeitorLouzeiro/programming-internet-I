@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Preencha o formulario abaixo</h3>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome">
+        </label>
+
+        <br>
+        <br>
+        <label>
+            <label for="datanascimento">Data Nascimento
+                <input type="number" name="dia" id="dia" placeholder="dd">
+                <input type="number" name="mes" id="mes" placeholder="mm">
+                <input type="number" name="ano" id="ano" placeholder="yyyy">
+            </label>
+        </label>
+
+        <br>
+        <br>
+        <label for="rg">RG</label>
+        <input type="number" name="rg" id="rg">
+
+        <br>
+        <br>
+        <label>
+            <label for="cpf">CPF</label>
+            <input type="number" name="cpf" id="cpf"> -
+            <input type="number" name="cpf2" id="cpf2">
+        </label>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados de Endereço</legend>
+        <label>
+            <label for="rua">Rua</label>
+            <input type="text" name="rua" id="rua">
+
+            <label for="numero">Numero</label>
+            <input type="number name=" numero" id="numero">
+        </label>
+
+        <br>
+        <br>
+        <label for="bairro">Bairro</label>
+        <input type="text" name="bairro" id="bairro">
+
+        <br>
+        <br>
+        <label for="estado">Estado</label>
+        <select name="tamanho" id="tamanho">
+            <option selected>Acre</option>
+            <option value="1">Piaui</option>
+            <option value="2">São Paulo</option>
+            <option value="3">Rio de Janeiro</option>
+        </select>
+
+        <br>
+        <br>
+        <label for="cidade">Cidade</label>
+        <input type="text" name="cidade" id="cidade">
+
+
+        <br>
+        <br>
+        <label>
+            <label for="cpf">CEP</label>
+            <input type="number" name="cpf" id="cpf"> -
+            <input type="number" name="cpf2" id="cpf2">
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Dados de Login</legend>
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email">
+
+        <br>
+        <br>
+        <label for="file">Imagem de perfil:</label>
+        <input type="file" name="file" id="file">
+
+        <br>
+        <br>
+        <label for="login">Login de usuario</label>
+        <input type="text" name="login" id="login">
+
+
+        <br>
+        <br>
+        <label for="senha1">Senha</label>
+        <input type="password" name="senha1" id="senha1">
+
+        <br>
+        <br>
+        <label for="senha2">Confirme a senha</label>
+        <input type="password" name="senha2" id="senha2">
+    </fieldset>
+
+    <br>
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+
+</body>
+
+</html>
