@@ -1,0 +1,66 @@
+<!-- 
+    Questão 4: Suponha que você esteja criando uma página de perfil para uma rede social
+    e deseja destacar o nome de usuário e a biografia do usuário com estilos de texto
+    personalizados. Como você aplicaria diferentes estilos de fonte,
+    cores e espaçamento de texto para criar uma aparência visualmente atraente
+    para o perfil do usuário? Apresente em formato de código.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .profile {
+            width: 500px;
+            margin: 0 auto;
+
+        }
+
+        .imagem-profile {
+            width: 150px;
+            height: 150px;
+            float: left;
+            margin-right: 20px;
+        }
+
+        .username {
+            font-size: 30px;
+            color: green;
+            text-transform: uppercase;
+        }
+
+        .bio {
+            font-size: 20px;
+            text-align: justify;
+            font-variant: small-caps;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 1.2rem;
+            background-color: green;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile">
+        <img src="images/Q4/profile.png" alt="" class="imagem-profile">
+        <h1 class="username">@johndoe</h1>
+        <p class="bio">
+            " Viajante, fotógrafo e amante de todas as atividades ao ar livre.
+            Junte-se a mim em minhas aventuras!"
+        </p>
+        <button type="button">Seguir</button>
+    </div>
+
+</body>
+
+</html>

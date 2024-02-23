@@ -1,0 +1,97 @@
+<!-- 
+    Questão 5:Considere que você esteja desenvolvendo um site para um consultor de carreira
+    e deseja aplicar diferentes estilos de texto para destacar os serviços oferecidos,
+    como preparação de currículos, treinamento para entrevistas e orientação profissional.
+    Como você usaria diferentes estilos de fonte, cores e espaçamento de texto
+    para representar visualmente cada serviço de forma única?
+    Crie uma página que sirva ao problema apresentado.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cabecalho {
+            background-color: black;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .servicos {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .servico {
+            margin: 10px;
+        }
+
+        .servico h2 {
+            font-family: Times New Roman, Times, serif, sans-serif;
+            font-size: 26px;
+            color: black;
+            margin: 10px;
+        }
+
+        .servico p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .resumo {
+            background-color: green;
+            color: white;
+            padding: 20px;
+        }
+
+        .treinamento {
+            background-color: yellow;
+            color: black;
+            padding: 20px;
+        }
+
+        .suporte {
+            background-color: grey;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="servicos">
+
+        <h1 class="cabecalho">Seu primeiro emprego</h1>
+
+        <div class="servico resumo">
+            <h2>Preparação de Currículos</h2>
+            <p>Ajuda especializada para criar currículos que se destacam e impressionam os recrutadores.</p>
+        </div>
+
+        <div class="servico treinamento">
+            <h2>Treinamento para Entrevistas</h2>
+            <p>Preparação intensiva para entrevistas, incluindo técnicas de comunicação e dicas para se destacar.</p>
+        </div>
+
+        <div class="servico suporte">
+            <h2>Orientação Profissional</h2>
+            <p>Aconselhamento personalizado para ajudá-lo a traçar seu caminho profissional e alcançar seus objetivos de
+                carreira.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

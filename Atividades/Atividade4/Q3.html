@@ -1,0 +1,65 @@
+<!-- 
+    Questão 3:  Suponha que você esteja criando um blog de viagens e
+    deseje destacar cada postagem com uma imagem de fundo correspondente ao destino da viagem.
+    Como você garantiria que as imagens de fundo se ajustassem automaticamente ao tamanho do contêiner de cada postagem,
+    sem distorcer as proporções da imagem? Apresente um exemplo de código em HTML e CSS.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .post {
+            display: flex;
+            align-items: center;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card {
+            width: 45%;
+            height: 50%;
+            text-align: center;
+            margin: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="post">
+        <div class="card">
+            <a href="https://pt.wikipedia.org/wiki/Paris" target="_blank">
+                <img src="images/Q3/paris.jpg" alt="">
+                <h2>Viagem para Paris</h2>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="https://pt.wikipedia.org/wiki/Elevador_Lacerda" target="_blank">
+                <img src="images/Q3/elevadorLacerda.jpg" alt="">
+                <h2>Elevador Lacerda</h2>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="https://pt.wikipedia.org/wiki/Pelourinho_(Salvador)" target="_blank">
+                <img src="images/Q3/pelourinho.jpg" alt="">
+                <h2>Pelourinho (Salvador)</h2>
+            </a>
+        </div>
+
+    </div>
+</body>
+
+</html>
